@@ -32,5 +32,4 @@ public class FetchProvider extends HttpServlet {
 		request.setAttribute("fetchdata", fetchdata);
 		request.getRequestDispatcher("fetchprovider.jsp").forward(request, response);
 	}
-
 }
